@@ -1,0 +1,68 @@
+body {
+	background: black;
+}
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+p {
+	color: black;
+	font-size: 18px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	border-color: aliceblue;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	border-color: none;
+}
+.postcard-header {
+	display: flex;
+	border-color: aliceblue;
+}
+.postcard-header h1 {
+	width: 400px;
+	height: 100%;
+	margin: 0%;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	border-color: aliceblue;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	border-color: aliceblue;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0%;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+}
+input {
+	border: ridge;
+	border-right: none;
+	border-left: none;
+	border-top: grey;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: rgb(206, 198, 198);
+	padding: 10px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size: 18px;
+	border-radius: 15px;
+	border-color: aliceblue;
+}
+div {
+	border: none !important;
+}
